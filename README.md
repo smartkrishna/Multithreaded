@@ -52,13 +52,13 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 ## How to Run
 
 ```bash
-$ git clone https://github.com/varundeepsaini/MultiThreadedProxyServerClient.git
-$ cd MultiThreadedProxyServerClient
+$ git clone https://github.com/smartkrishna/Multithreaded.git
+$ cd Multithreaded
 $ make all
-$ ./proxy <port no.>
+$ ./proxy <port no.> // by default 8080
 ```
-`Open http://localhost:port/https://www.cs.princeton.edu/`
+
 
 # Note:
-- This code can only be run in Linux Machine. Please disable your browser cache.
+- This code can only be run in Linux /Mac Machine. Please disable your browser cache.
 - To run the proxy without cache Change the name of the file (`proxy_server_with_cache.c to proxy_server_without_cache.c`) MakeFile.
