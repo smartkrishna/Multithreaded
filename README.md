@@ -3,19 +3,12 @@
 This project is implemented using `C` and Parsing of HTTP referred from <a href = "https://github.com/vaibhavnaagar/proxy-server"> Proxy Server </a>
 
 
-## Index
 
-- [Project Theory](https://github.com/varundeepsaini/MultiThreadedProxyServerClient#project-theory)
-- [How to Run](https://github.com/varundeepsaini/MultiThreadedProxyServerClient#How-to-Run)
-
-## Project Theory
-
-[[Back to top]](https://github.com/varundeepsaini/MultiThreadedProxyServerClient#index)
 
 ##### Introduction
 
 ##### Basic Working Flow of the Proxy Server:
-![](https://github.com/varundeepsaini/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG)
+![](https://github.com/smartkrishna/Multithreaded/blob/main/pics/UML.JPG)
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
